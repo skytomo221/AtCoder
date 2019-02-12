@@ -1,0 +1,11 @@
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\bin\Debug\netcoreapp2.1\b.deps.json
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\bin\Debug\netcoreapp2.1\b.runtimeconfig.json
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\bin\Debug\netcoreapp2.1\b.runtimeconfig.dev.json
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\bin\Debug\netcoreapp2.1\b.dll
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\bin\Debug\netcoreapp2.1\b.pdb
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\obj\Debug\netcoreapp2.1\b.csprojAssemblyReference.cache
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\obj\Debug\netcoreapp2.1\b.csproj.CoreCompileInputs.cache
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\obj\Debug\netcoreapp2.1\b.AssemblyInfoInputs.cache
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\obj\Debug\netcoreapp2.1\b.AssemblyInfo.cs
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\obj\Debug\netcoreapp2.1\b.dll
+D:\skytomo\Documents\Programming\C\keyence2019\b\b\obj\Debug\netcoreapp2.1\b.pdb
