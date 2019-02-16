@@ -1,10 +1,10 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <climits>
+
 using namespace std;
 
-int n, x, m = INT_MAX, gcd_;
+int n, x;
 
 int gcd(int a, int b) {
   while(1) {
@@ -16,11 +16,10 @@ int gcd(int a, int b) {
 }
 
 int main() {
-	int whe;
 	cin >> n;
 	vector<int> a;
 	for (int i=0;i<n;i++) {cin >> x; a.push_back(x);}
-	gcd_=gcd(a[0],a[1]); for (int i=0;i<n;i++) gcd_=gcd(a[i],gcd_);
-	cout << gcd_ << endl;
+	x=gcd(a[0], a[1]); for (int i=0;i<n;i++) x=gcd(a[i], x);
+	cout << x << endl;
 	return 0;
 }
