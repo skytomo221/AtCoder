@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\skytomo\\Documents\\Programming\\Programming Contest\\AtCoder\\KEYENCE Programming Contest 2019\\b\\b\\b.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

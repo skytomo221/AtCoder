@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\skytomo\\Documents\\Programming\\C\\keyence2019\\b\\b\\b.csproj",
+      "projectUniqueName": "d:\\skytomo\\Documents\\Programming\\Programming Contest\\AtCoder\\KEYENCE Programming Contest 2019\\b\\b\\b.csproj",
       "projectName": "b",
-      "projectPath": "D:\\skytomo\\Documents\\Programming\\C\\keyence2019\\b\\b\\b.csproj",
+      "projectPath": "d:\\skytomo\\Documents\\Programming\\Programming Contest\\AtCoder\\KEYENCE Programming Contest 2019\\b\\b\\b.csproj",
       "packagesPath": "C:\\Users\\skytomo\\.nuget\\packages\\",
-      "outputPath": "D:\\skytomo\\Documents\\Programming\\C\\keyence2019\\b\\b\\obj\\",
+      "outputPath": "d:\\skytomo\\Documents\\Programming\\Programming Contest\\AtCoder\\KEYENCE Programming Contest 2019\\b\\b\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
