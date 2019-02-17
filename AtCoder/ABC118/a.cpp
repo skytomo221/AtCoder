@@ -1,9 +1,9 @@
-#include <stdio.h>
-
-int main() {
-	int a,b;
-	scanf("%d %d",&a,&b);
-	if(b%a==0) printf("%d\n",a+b);
-	else printf("%d\n",b-a);
+#include <bits/stdc++.h>
+using namespace std;
+int a, b;
+int main()
+{
+	cin >> a >> b;
+	cout << ((b % a) ? b - a : a + b) << endl;
 	return 0;
 }
