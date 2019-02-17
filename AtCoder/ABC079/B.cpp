@@ -11,15 +11,9 @@ long long int lucas(long long int n)
         return 1;
     else
     {
-        long long int sum = 0;   
-        if (l[n - 1])
-            sum = l[n - 1];
-        else
-            sum = (l[n - 1] = lucas(n - 1));
-        if (l[n - 2])
-            sum += l[n - 2];
-        else
-            sum += (l[n - 2] = lucas(n - 2));
+        long long int sum = 0;
+        sum = (l[n - 1]) ? l[n - 1] : (l[n - 1] = lucas(n - 1));
+        sum += (l[n - 2]) ? l[n - 2] : (l[n - 2] = lucas(n - 2));
         return sum;
     }
 }
