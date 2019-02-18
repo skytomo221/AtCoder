@@ -8,7 +8,7 @@ int main()
     string d[] = {"N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"};
     double beaufort[] = {0.2, 1.5, 3.3, 5.4, 7.9, 10.7, 13.8, 17.1, 20.7, 24.4, 28.4, 32.6};
     cin >> deg >> dis;
-    ddis = (int)((dis / 6.0) + 0.5) / 10.0;
+    ddis = floor((double)dis / 6.0 + 0.5) / 10.0;
     for (w = 0; w < 12; w++)
         if (ddis <= beaufort[w])
             break;
