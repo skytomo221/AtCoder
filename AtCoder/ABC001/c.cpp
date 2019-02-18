@@ -4,67 +4,68 @@ using namespace std;
 int main()
 {
     int deg, dis;
+    double ddeg, ddis;
     string d;
     cin >> deg >> dis;
-    if (dis <= 2 * 6)
+    ddis = floor((double)dis / 60.0 + 0.05);
+    ddeg = (double)deg / 10.0;
+    if (ddis <= 0.2)
         dis = 0;
-    else if (dis <= 15 * 6)
+    else if (ddis <= 1.5)
         dis = 1;
-    else if (dis <= 33 * 6)
+    else if (ddis <= 3.3)
         dis = 2;
-    else if (dis <= 54 * 6)
+    else if (ddis <= 5.4)
         dis = 3;
-    else if (dis <= 79 * 6)
+    else if (ddis <= 7.9)
         dis = 4;
-    else if (dis <= 107 * 6)
+    else if (ddis <= 10.7)
         dis = 5;
-    else if (dis <= 138 * 6)
+    else if (ddis <= 13.8)
         dis = 6;
-    else if (dis <= 171 * 6)
+    else if (ddis <= 17.1)
         dis = 7;
-    else if (dis <= 207 * 6)
+    else if (ddis <= 20.7)
         dis = 8;
-    else if (dis <= 244 * 6)
+    else if (ddis <= 24.4)
         dis = 9;
-    else if (dis <= 284 * 6)
+    else if (ddis <= 28.4)
         dis = 10;
-    else if (dis <= 326 * 6)
+    else if (ddis <= 32.6)
         dis = 11;
     else
         dis = 12;
     if (!dis)
         d = "C";
-    else if (deg <= 112)
-        d = "N";
-    else if (deg <= 337)
+    else if (11.25 <= ddeg && ddeg < 33.75)
         d = "NNE";
-    else if (deg <= 562)
+    else if (33.75 <= ddeg && ddeg < 56.25)
         d = "NE";
-    else if (deg <= 787)
+    else if (56.25 <= ddeg && ddeg < 78.75)
         d = "ENE";
-    else if (deg <= 1012)
+    else if (78.75 <= ddeg && ddeg < 101.25)
         d = "E";
-    else if (deg <= 1237)
+    else if (101.25 <= ddeg && ddeg < 123.75)
         d = "ESE";
-    else if (deg <= 1462)
+    else if (123.75 <= ddeg && ddeg < 146.25)
         d = "SE";
-    else if (deg <= 1687)
+    else if (146.25 <= ddeg && ddeg < 168.75)
         d = "SSE";
-    else if (deg <= 1912)
+    else if (168.75 <= ddeg && ddeg < 191.25)
         d = "S";
-    else if (deg <= 2137)
+    else if (191.25 <= ddeg && ddeg < 213.75)
         d = "SSW";
-    else if (deg <= 2362)
+    else if (213.75 <= ddeg && ddeg < 236.25)
         d = "SW";
-    else if (deg <= 2587)
+    else if (236.25 <= ddeg && ddeg < 258.75)
         d = "WSW";
-    else if (deg <= 2812)
+    else if (258.75 <= ddeg && ddeg < 281.25)
         d = "W";
-    else if (deg <= 3037)
+    else if (281.25 <= ddeg && ddeg < 303.75)
         d = "WNW";
-    else if (deg <= 3262)
+    else if (303.75 <= ddeg && ddeg < 326.25)
         d = "NW";
-    else if (deg <= 3487)
+    else if (326.25 <= ddeg && ddeg < 348.75)
         d = "NNW";
     else
         d = "N";
