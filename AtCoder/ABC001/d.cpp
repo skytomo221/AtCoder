@@ -18,12 +18,9 @@ int main()
         scanf("%d-%d", &begin, &end);
         begin = begin5(begin);
         end = end5(end);
-        for (int j = begin; j < end; j += 5)
+        for (int j = begin; j < end; j = ((j + 5) % 100 / 60) ? (j / 100 + 1) * 100 : j + 5)
         {
-            if (j % 100 / 60)
-                j = (j / 100 + 1) * 100;
             t5[j / 100 * 12 + j % 100 / 5] += 1;
-            //cout << "time: " << j << " t5[" << (j / 100 * 12 + j % 100 / 5) << "] = " << t5[j / 100 * 12 + j % 100 / 5] << endl;
         }
     }
     bool flag = true;
@@ -40,8 +37,6 @@ int main()
             printf("%04d-%04d\n", begin, end);
             flag = !flag;
         }
-        if (i == 288 && t5[i])
-            printf("%04d-2400\n", begin);
     }
     return 0;
 }
