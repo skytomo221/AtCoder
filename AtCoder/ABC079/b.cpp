@@ -1,22 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-long long int x, l[87];
+long long int x;
 
+long long int l[87];
 long long int lucas(long long int n)
 {
-    switch (n)
-    {
-    case 0:
-        return 2;
-    case 1:
-        return 1;
-    default:
-        long long int sum = 0;
-        sum = (l[n - 1]) ? l[n - 1] : (l[n - 1] = lucas(n - 1));
-        sum += (l[n - 2]) ? l[n - 2] : (l[n - 2] = lucas(n - 2));
-        return sum;
-    }
+    for (int i = 2; i <= n; i++)
+        l[i] = l[i - 1] + l[i - 2];
+    return l[n];
 }
 
 int main()
