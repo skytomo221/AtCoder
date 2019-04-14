@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.hs": "haskell",
         "ostream": "cpp",
         "chrono": "cpp",
         "cmath": "cpp",
@@ -13,6 +14,7 @@
         "initializer_list": "cpp",
         "string_view": "cpp",
         "valarray": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "iostream": "cpp"
     }
 }
