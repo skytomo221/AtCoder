@@ -1,11 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool pairCompare(const pair<long long int, long long int> &p1, const pair<long long int, long long int> &p2)
-{
-    return p1.second > p2.second;
-}
-
 int main()
 {
     long long int n, m;
@@ -23,17 +18,7 @@ int main()
     {
         cin >> vp[i].first >> vp[i].second;
     }
-    std::sort(vp.begin(), vp.end(), pairCompare);
-    /*
-    for (long long int i = 0; i < n; i++)
-    {
-        cout << a[i] << endl;
-    }
-    for (long long int i = 0; i < m; i++)
-    {
-        cout << vp[i].first << " " << vp[i].second << endl;
-    }
-    */
+    std::sort(vp.begin(), vp.end(), [](auto &p1, auto &p2){return p1.second > p2.second;});
     long long int c = 0, sum = 0;
     for (long long int i = 0; i < n && c < m; c++)
     {
