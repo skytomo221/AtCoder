@@ -18,6 +18,7 @@
         "iostream": "cpp",
         "*.tcc": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "cstdlib": "cpp"
     }
 }
